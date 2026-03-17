@@ -1,0 +1,78 @@
+.ota{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    border: 1px solid black;
+    width: 30%;
+    position: absolute;
+    left: 33%;
+    padding: 20px;
+    height: 50vh;
+    align-items:center;
+    border-radius: 20px;
+    background-color: rgba(4, 40, 77, 0.67);
+    box-shadow: 1px 2px 20px 2px rgba(255, 255, 255, 0.236);
+    border: none;
+    overflow-y: auto; 
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(-100px);
+   
+}
+
+.ota:hover{
+         transform:rotate(0deg);
+         box-shadow: 1px 2px 30px 2px white;
+}
+
+.axi{
+    opacity: 1;
+    transform: translateY(50px);
+     transform:rotate(5deg);
+  
+}
+
+.id{
+    display: flex;
+flex-direction: column;
+}
+
+
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+  
+}
+
+button{
+       padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+    border: none;
+}
+
+body{
+    background-color: rgb(1, 23, 45);
+}
+
+
+.h{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  
+   margin-right: 30px;
+    color: white;
+opacity: 0;
+transition: 1s;
+transform: translateY(-50px);
+}
+
+.m{
+    opacity: 1;
+
+transform: translateY(10px);
+}
